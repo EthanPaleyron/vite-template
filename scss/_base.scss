@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
   
-ul {
+ul, ol {
   list-style: none;
 }
   
@@ -20,5 +20,6 @@ button {
 }
   
 img {
+  object-fit: cover;
   max-width: 100%;
 }
