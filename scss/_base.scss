@@ -18,6 +18,10 @@ button {
   border: none;
   background-color: inherit;
 }
+
+a, button {
+  cursor: pointer;
+}
   
 img {
   object-fit: cover;
