@@ -1,6 +1,6 @@
 ###### Name Project
 
-## use of [vite](https://vitejs.dev/).
+## use of [Vite](https://vitejs.dev/), [Sass](https://sass-lang.com/).
 
 ### How to install the project.
 
