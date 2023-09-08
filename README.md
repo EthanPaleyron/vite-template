@@ -1,33 +1,33 @@
-###### Name Project
+# Name Project
 
-## use of [Vite](https://vitejs.dev/), [Sass](https://sass-lang.com/).
+## Use of [Vite](https://vitejs.dev/), [Sass](https://sass-lang.com/).
 
-### How to install the project.
+## How to install the project.
 
-Open **Git bash**.
+### Open **Git bash**.
 
-# clone the project `git clone` (URL of the project).
+### Clone the project `git clone` (URL of the project).
 
 ```bash
 git clone
 ```
 
-# Install dependencies.
+### Install dependencies.
 
 ```bash
 npm i
 ```
 
-# Open Visual Studio Code.
+### Open Visual Studio Code.
 
 ```bash
 code .
 ```
 
-# exécuter le développement.
+### Run development.
 
 ```bash
 npm run dev
 ```
 
-<sup>Autor Ethan<sup>
+##### <sup>Autor Ethan :)<sup>
