@@ -4,9 +4,9 @@
 
 ## How to install the project.
 
-### Open **Git bash**.
+### Open `Git bash`.
 
-### Clone the project `git clone` (URL of the project).
+### Clone the project `git clone` **(_URL_ of the project)**.
 
 ```bash
 git clone
