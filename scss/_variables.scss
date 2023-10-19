@@ -9,6 +9,8 @@ $w: #fff;
 $s: #ddd;
 $g: #aaa;
 $b: #000;
+$wa: rgba(255, 255, 255, 0.3);
+$ba: rgba(0, 0, 0, 0.3);
 $r: #ff4136;
 $orange: #ff851b;
 $yellow: #ffdc00;
@@ -26,3 +28,15 @@ $eden-school: #65c1be;
 
 // 🔴Box Shadow
 $bs: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+// 🔴Mixin
+@mixin flex($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin centerAbsolute() {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
