@@ -4,26 +4,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
-ul, ol {
+
+ul,
+ol {
   list-style: none;
 }
-  
+
 a {
   text-decoration: none;
   display: inline-block;
 }
-  
+
 button {
   border: none;
   background-color: inherit;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
-  
+
 img {
   object-fit: cover;
   max-width: 100%;
+}
+
+table,
+thead,
+tr,
+th,
+td {
+  border: solid;
+  border-collapse: collapse;
 }
