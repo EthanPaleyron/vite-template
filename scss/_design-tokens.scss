@@ -4,20 +4,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-// 🔴colors
-$primary: #d9d9d9;
+// 🔴Colors
+$primary: #dedede;
 $secondary: #aaa;
 $tel: #01ff70;
 $mail: #2d95f9;
 $w: #fff;
-$dw: #dedede;
-$s: #ddd;
 $g: #aaa;
 $b: #000;
-$lb: #101010;
 $wa: rgba(255, 255, 255, 0.5);
 $ba: rgba(0, 0, 0, 0.5);
-$r: #ff4136;
+
+// 🔴Other-Colors
+$red: #ff4136;
 $orange: #ff851b;
 $yellow: #ffdc00;
 $olive: #3d9970;
@@ -31,17 +30,6 @@ $purple: #b10dc9;
 $fuchsia: #f012be;
 $maroon: #85144b;
 
-// 🔴Box Shadow
-$bs: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-
-// 🔴Mixin
-@mixin flex($jc, $ai) {
-  display: flex;
-  justify-content: $jc;
-  align-items: $ai;
-}
-@mixin centerAbsolute() {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// 🔴Size-elements
+$br: 0.3rem;
+$pb: 1rem 1.5rem;
