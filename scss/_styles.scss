@@ -12,65 +12,35 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 %flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  -moz-box-pack: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -moz-box-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
 }
 %ellipsis {
   white-space: nowrap;
   overflow: auto;
   text-overflow: ellipsis;
-  -moz-text-overflow: ellipsis;
-  -webkit-text-overflow: ellipsis;
-  -ms-text-overflow: ellipsis;
 }
 
 // 🔴Mixin
 @mixin box-shadow($x, $y, $blur, $color) {
   box-shadow: $x $y $blur $color;
-  -moz-box-shadow: $x $y $blur $color;
-  -webkit-box-shadow: $x $y $blur $color;
-  -ms-box-shadow: $x $y $blur $color;
 }
 @mixin grid($columns, $gap) {
   display: grid;
   grid-template-columns: repeat($columns, 1fr);
   gap: $gap;
-  -moz-column-count: $columns;
-  -moz-column-gap: $gap;
-  -webkit-column-count: $columns;
-  -webkit-column-gap: $gap;
 }
 @mixin responsive($breakpoint) {
   @media (min-width: $breakpoint) {
     @content;
   }
-  @-moz-document url-prefix() {
-    @content;
-  }
-  @supports (-webkit-appearance: none) {
-    @content;
-  }
 }
 @mixin animation($name, $duration, $timing) {
   animation: $name $duration $timing;
-  -moz-animation: $name $duration $timing;
-  -webkit-animation: $name $duration $timing;
 }
 @mixin box-shadow($x, $y, $blur, $color) {
   box-shadow: $x $y $blur $color;
-  -moz-box-shadow: $x $y $blur $color;
-  -webkit-box-shadow: $x $y $blur $color;
-  -ms-box-shadow: $x $y $blur $color;
 }
