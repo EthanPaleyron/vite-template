@@ -14,6 +14,8 @@
 
 ### Clone the project `git clone` **(_URL_ of the project)**.
 
+![clone the project](README-resources/cloneTheProject.png)
+
 ```bash
 git clone (URL)
 ```
