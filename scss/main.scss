@@ -1,6 +1,6 @@
-@import "design-tokens";
 @import "base";
 @import "styles";
+@import "design-tokens";
 
 h1 {
   @extend %absolute-center;
