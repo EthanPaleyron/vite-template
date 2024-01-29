@@ -1,32 +1,17 @@
 # Name Project
 
-## Use of [Vite](https://vitejs.dev/) and [SCSS](https://sass-lang.com/).
+## Use of [Vite](https://vitejs.dev/) and [SASS](https://sass-lang.com/).
 
 ## Install the software :
 
 - The code editor : [Visual Studio Code](https://code.visualstudio.com/).
 - Install Vite : [NodeJS](https://nodejs.org/en).
-- Install the : [GitBash](https://git-scm.com/downloads).
 
 ## Project launch :
 
-### Open `GitBash` or `Terminal`.
+### Open your `Terminal`.
 
-### Clone the project `git clone` **(_URL_ of the project)**.
-
-![clone the project](README-resources/cloneTheProject.png)
-
-```bash
-git clone (URL)
-```
-
-### Enter the project.
-
-```bash
-cd (name of the project)
-```
-
-### Install the dependencies.
+### Install dependencies in the project.
 
 ```bash
 npm i
