@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght&display=swap");
+
+// font sizing
+$font-xl: 1.5em; // Définir les tailles de police de base pour chaque niveau en em
+$font-l: 1.25em;
+$font-m: 1em;
+$font-s: 0.875em;
+$font-xs: 0.75em;
+
+// Définir les incrémentations responsives pour chaque niveau en em
+$font-xl-responsive: 0.25em;
+$font-l-responsive: 0.125em;
+$font-m-responsive: 0.125em;
+$font-s-responsive: 0.125em;
+$font-xs-responsive: 0.125em;
+
+// font family
+$font-heading: "Montserrat", sans-serif;
+$font-body: "Mitr", sans-serif;
