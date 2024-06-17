@@ -32,11 +32,6 @@ main {
   display: block; // Allow usage of HTML5 main element
 }
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 hr {
   box-sizing: content-box; // Set correct box-sizing for hr
   height: 0; // Remove default height
