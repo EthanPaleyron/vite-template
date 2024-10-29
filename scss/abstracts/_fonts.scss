@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght&display=swap");
 
-// font sizing
-$font-xl: 1.75em;
-$font-l: 1.5em;
-$font-m: 1.25em;
-$font-s: 1.125em;
-$font-xs: 1em;
-
-$font-xl-responsive: 0.5em;
-$font-l-responsive: 0.375em;
-$font-m-responsive: 0.375em;
-$font-s-responsive: 0.375em;
-$font-xs-responsive: 0.375em;
+// font-size
+$font-xl: 4rem; // 64px
+$font-l: 1.2rem; // 20px
+$font-m: 1rem; // 16px
+$font-s: 0.9rem; // 15px
+$font-xs: 0.7rem; // 12px
 
 // font family
-$font-heading: "Montserrat", sans-serif;
-$font-body: "Mitr", sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
+$main-font: "Mitr", sans-serif;
