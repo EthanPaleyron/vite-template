@@ -11,17 +11,12 @@
 }
 
 html {
-  line-height: 1.15; // Improve text rendering
   -webkit-text-size-adjust: 100%; // Prevent font size adjustments after orientation changes in iOS
 }
 
 body {
   min-height: 100vh;
   margin: 0;
-  line-height: 1.5;
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
 }
 
 footer {
@@ -103,6 +98,7 @@ select,
 textarea {
   font: inherit; // Inherit font styles
   margin: 0; // Remove margin
+  width: fit-content;
 }
 
 button {
