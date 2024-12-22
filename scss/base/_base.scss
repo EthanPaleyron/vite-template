@@ -1,6 +1,25 @@
 @use "../abstracts" as *;
 
-@use "../abstracts" as *;
+:root {
+  --vw: 1dvw;
+  --computed-margin: max(
+    #{$min-margin},
+    calc((var(--vw, 1vw) * 100 - 1140px) / 2)
+  );
+  --computed-margin-1440: max(
+    #{$min-margin},
+    calc((var(--vw, 1vw) * 100 - 1440px) / 2)
+  );
+}
+
+.container {
+  width: 100%;
+  max-width: $container-width + ($min-margin * 2);
+  margin: 0 auto 0;
+  padding: 0 $min-margin;
+  @include all-navigators("transition", (padding-left 0.5s, padding-left 0.5s));
+  @include all-navigators("transition-timing-function", $animation-timing);
+}
 
 body,
 html {
