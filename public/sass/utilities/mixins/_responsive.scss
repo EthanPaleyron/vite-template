@@ -1,22 +1,24 @@
+@use "../../abstracts/" as *;
+
 @mixin mobile {
-  @media screen and (max-width: $mobile-breakpoint) {
+  @media screen and (max-width: $mobile) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media screen and (max-width: $tablet-breakpoint) {
+  @media screen and (max-width: $tablet) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media screen and (min-width: $mobile-breakpoint) {
+  @media screen and (min-width: $mobile) {
     @content;
   }
 }
 
-@mixin resp-custom($breakpoint) {
+@mixin resp-custom-min($breakpoint) {
   @media screen and (min-width: #{$breakpoint}) {
     @content;
   }

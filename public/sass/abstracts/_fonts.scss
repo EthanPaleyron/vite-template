@@ -1,0 +1,8 @@
+$font-folder: "/public/fonts/";
+
+// Import font with "@include font-face()" or @import url()
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght&display=swap");
+
+// Font family
+$ff-montserrat: "Montserrat", sans-serif;
+$ff-main: "Mitr", sans-serif;

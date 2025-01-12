@@ -1,0 +1,18 @@
+@use "./colors" as *;
+
+// Responsive
+$mobile: 768px;
+$tablet: 1140px;
+
+// Container
+$container-width: 1140px;
+$min-margin: 35px;
+$animation-timing: cubic-bezier(0.25, 1, 0.5, 1);
+
+// Border radius
+$small-radius: 12.5px;
+$medium-radius: 25px;
+$big-radius: 50px;
+
+// Box shadow
+$shadow: 0px 4px 200px 30px $b-transparent;

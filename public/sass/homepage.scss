@@ -1,0 +1,16 @@
+@use "abstracts" as *;
+
+.landing {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  h1 {
+    width: fit-content;
+    background: linear-gradient(180deg, $primary, $secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

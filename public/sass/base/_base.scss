@@ -1,0 +1,74 @@
+@use "../abstracts/" as *;
+@use "../utilities/mixins/" as *;
+@use "./titles" as *;
+
+:root {
+  --vw: 1dvw;
+  --computed-margin: max(
+    #{$min-margin},
+    calc((var(--vw, 1vw) * 100 - 1140px) / 2)
+  );
+  --computed-margin-1440: max(
+    #{$min-margin},
+    calc((var(--vw, 1vw) * 100 - 1440px) / 2)
+  );
+}
+
+.container {
+  width: 100%;
+  max-width: $container-width + ($min-margin * 2);
+  margin: 0 auto 0;
+  padding: 0 35px;
+  @include all-navigators("transition", (padding-left 0.5s, padding-left 0.5s));
+  @include all-navigators("transition-timing-function", $animation-timing);
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: $ff-main;
+}
+
+// Titles
+h1 {
+  @extend %heading-1;
+}
+
+h2 {
+  @extend %heading-2;
+}
+
+h3 {
+  @extend %heading-3;
+}
+
+h4 {
+  @extend %heading-4;
+}
+
+h5 {
+  @extend %heading-5;
+}
+
+h6 {
+  @extend %heading-6;
+}
+
+// Texts
+p {
+  @extend %paragraph;
+}
+
+em {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
+
+.content-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,51 @@
+@use "../utilities/mixins/" as *;
+@use "../abstracts" as *;
+
+%heading-1 {
+  @include ez-font($ff-montserrat, 400);
+  @include ez-font-size($fs-xl-d, $fs-xl-m);
+  @include ez-line-height(55px, 35px);
+  @include ez-letter-spacing(1.92px, 1.2px);
+}
+
+%heading-2 {
+  @include ez-font($ff-montserrat, 400);
+  @include ez-font-size($fs-l-d, $fs-l-m);
+  @include ez-line-height(55px, 35px);
+  @include ez-letter-spacing(0.96px, 0.84px);
+}
+
+%heading-3 {
+  @include ez-font($ff-main, 350);
+  @include ez-font-size($fs-m-d, $fs-m-m);
+  @include ez-line-height(32px, normal);
+  @include ez-letter-spacing(0.44px, 0.6px);
+}
+
+%heading-4 {
+  @include ez-font($ff-main, 400);
+  @include ez-font-size($fs-s-d);
+  @include ez-line-height(24px);
+  @include ez-letter-spacing(0.6px);
+}
+
+%heading-5 {
+  @include ez-font($ff-main, 600);
+  @include ez-font-size($fs-s-d);
+  @include ez-line-height(28px);
+  @include ez-letter-spacing(0.6px);
+}
+
+%heading-6 {
+  @include ez-font($ff-main, 400);
+  @include ez-font-size($fs-xs-d);
+  @include ez-line-height(21px);
+  @include ez-letter-spacing(0.45px);
+}
+
+%paragraph {
+  @include ez-font($ff-main, 300);
+  @include ez-font-size($fs-text-d);
+  @include ez-line-height(21px);
+  @include ez-letter-spacing(0.45px);
+}

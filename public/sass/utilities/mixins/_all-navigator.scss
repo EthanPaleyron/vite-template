@@ -1,0 +1,7 @@
+@mixin all-navigators($type: "", $properties) {
+  -webkit-#{$type}: $properties;
+  -moz-#{$type}: $properties;
+  -ms-#{$type}: $properties;
+  -o-#{$type}: $properties;
+  #{$type}: $properties;
+}

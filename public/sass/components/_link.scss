@@ -1,0 +1,21 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+@mixin link(
+  $color: $secondary,
+  $colorHover: $primary,
+  $td: none,
+  $tdh: underline
+) {
+  @extend %paragraph;
+  color: $color;
+  text-decoration: $td;
+  &:hover {
+    color: $colorHover;
+    text-decoration: $tdh;
+  }
+}
+
+.link {
+  @include link();
+}

@@ -1,0 +1,10 @@
+@function computed-margin($margin, $min-margin: 35px) {
+  // Full width is 1440px (standard)
+  // We remove the wanted margin from the sides (the input margin is for one side so we multiply by two)
+  // Then to retrieve the margin on one side, we divide by two the amount of space that is more than the container
+  // And we return the max between that number and 36px (the minimal margin for mobile)
+  @return max(
+    $min-margin,
+    calc((var(--vw, 1vw) * 100 - (1440px - ($margin * 2))) / 2)
+  );
+}
